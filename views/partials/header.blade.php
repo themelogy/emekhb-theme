@@ -29,7 +29,7 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="main_nav">
-            {!! Menu::render('header', \Modules\Theme\Medicpro\Presenters\HeaderMenuPresenter::class) !!}
+            {!! Menu::render('header', \Modules\Theme\Emekhb\Presenters\HeaderMenuPresenter::class) !!}
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav>

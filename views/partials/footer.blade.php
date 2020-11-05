@@ -34,9 +34,9 @@
             <div class="col-sm-4 col-md-6 col-lg-6 footer_menuList">
                 <div class="row m0"></div>
                 <div class="row menuList">
-                    {!! Menu::render('footer1', \Modules\Theme\Medicpro\Presenters\FooterMenuLinksPresenter::class) !!}
-                    {!! Menu::render('footer2', \Modules\Theme\Medicpro\Presenters\FooterMenuSecondLinksPresenter::class) !!}
-                    {!! Menu::render('footer3', \Modules\Theme\Medicpro\Presenters\FooterMenuThirdLinksPresenter::class) !!}
+                    {!! Menu::render('footer1', \Modules\Theme\Emekhb\Presenters\FooterMenuLinksPresenter::class) !!}
+                    {!! Menu::render('footer2', \Modules\Theme\Emekhb\Presenters\FooterMenuSecondLinksPresenter::class) !!}
+                    {!! Menu::render('footer3', \Modules\Theme\Emekhb\Presenters\FooterMenuThirdLinksPresenter::class) !!}
                 </div>
             </div>
         </div>
