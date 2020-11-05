@@ -1,0 +1,124 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 21/10/2020 22:46
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-old-man:before { content: "\f100"; }
+.flaticon-care:before { content: "\f101"; }
+.flaticon-medical-records:before { content: "\f102"; }
+.flaticon-stretcher:before { content: "\f103"; }
+.flaticon-health-care:before { content: "\f104"; }
+.flaticon-pulse:before { content: "\f105"; }
+.flaticon-ambulance:before { content: "\f106"; }
+.flaticon-veterinarian:before { content: "\f107"; }
+.flaticon-doctor:before { content: "\f108"; }
+.flaticon-drugs:before { content: "\f109"; }
+.flaticon-hospital-ward:before { content: "\f10a"; }
+.flaticon-nurse:before { content: "\f10b"; }
+.flaticon-traumatology:before { content: "\f10c"; }
+.flaticon-bandage:before { content: "\f10d"; }
+.flaticon-medical-mask:before { content: "\f10e"; }
+.flaticon-feeding:before { content: "\f10f"; }
+.flaticon-hospitalization:before { content: "\f110"; }
+.flaticon-fever:before { content: "\f111"; }
+.flaticon-benefit:before { content: "\f112"; }
+.flaticon-treatment:before { content: "\f113"; }
+.flaticon-medical-record:before { content: "\f114"; }
+.flaticon-rehabilitation:before { content: "\f115"; }
+.flaticon-patient:before { content: "\f116"; }
+.flaticon-vaccination:before { content: "\f117"; }
+.flaticon-saline:before { content: "\f118"; }
+.flaticon-towel:before { content: "\f119"; }
+.flaticon-partner:before { content: "\f11a"; }
+.flaticon-24-hour-service:before { content: "\f11b"; }
+.flaticon-care-1:before { content: "\f11c"; }
+.flaticon-family:before { content: "\f11d"; }
+.flaticon-stay-at-home:before { content: "\f11e"; }
+.flaticon-care-2:before { content: "\f11f"; }
+.flaticon-stethoscope:before { content: "\f120"; }
+.flaticon-home:before { content: "\f121"; }
+.flaticon-satisfaction:before { content: "\f122"; }
+.flaticon-customer-feedback:before { content: "\f123"; }
+.flaticon-career:before { content: "\f124"; }
+.flaticon-nurse-1:before { content: "\f125"; }
+.flaticon-caretaker:before { content: "\f126"; }
+.flaticon-solidarity:before { content: "\f127"; }
+.flaticon-health-check:before { content: "\f128"; }
+.flaticon-care-3:before { content: "\f129"; }
+
+    $font-Flaticon-old-man: "\f100";
+    $font-Flaticon-care: "\f101";
+    $font-Flaticon-medical-records: "\f102";
+    $font-Flaticon-stretcher: "\f103";
+    $font-Flaticon-health-care: "\f104";
+    $font-Flaticon-pulse: "\f105";
+    $font-Flaticon-ambulance: "\f106";
+    $font-Flaticon-veterinarian: "\f107";
+    $font-Flaticon-doctor: "\f108";
+    $font-Flaticon-drugs: "\f109";
+    $font-Flaticon-hospital-ward: "\f10a";
+    $font-Flaticon-nurse: "\f10b";
+    $font-Flaticon-traumatology: "\f10c";
+    $font-Flaticon-bandage: "\f10d";
+    $font-Flaticon-medical-mask: "\f10e";
+    $font-Flaticon-feeding: "\f10f";
+    $font-Flaticon-hospitalization: "\f110";
+    $font-Flaticon-fever: "\f111";
+    $font-Flaticon-benefit: "\f112";
+    $font-Flaticon-treatment: "\f113";
+    $font-Flaticon-medical-record: "\f114";
+    $font-Flaticon-rehabilitation: "\f115";
+    $font-Flaticon-patient: "\f116";
+    $font-Flaticon-vaccination: "\f117";
+    $font-Flaticon-saline: "\f118";
+    $font-Flaticon-towel: "\f119";
+    $font-Flaticon-partner: "\f11a";
+    $font-Flaticon-24-hour-service: "\f11b";
+    $font-Flaticon-care-1: "\f11c";
+    $font-Flaticon-family: "\f11d";
+    $font-Flaticon-stay-at-home: "\f11e";
+    $font-Flaticon-care-2: "\f11f";
+    $font-Flaticon-stethoscope: "\f120";
+    $font-Flaticon-home: "\f121";
+    $font-Flaticon-satisfaction: "\f122";
+    $font-Flaticon-customer-feedback: "\f123";
+    $font-Flaticon-career: "\f124";
+    $font-Flaticon-nurse-1: "\f125";
+    $font-Flaticon-caretaker: "\f126";
+    $font-Flaticon-solidarity: "\f127";
+    $font-Flaticon-health-check: "\f128";
+    $font-Flaticon-care-3: "\f129";

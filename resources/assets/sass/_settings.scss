@@ -1,0 +1,31 @@
+$default-color: #9319B0;
+$default-reverse-color: #29ABE2;
+$dark-gray-color: #4b596b;
+$default-font-1: 'Lato', sans-serif;
+$default-font-2: 'Open Sans', sans-serif;
+$default-txt-color: $dark-gray-color;
+$default-heading-color: $dark-gray-color;
+
+$topbar-txt-color: $default-color;
+$topbar-icon-color: $default-color;
+
+$page-header-bg-color: mix($default-color, $dark-gray-color, 40%);
+$page-header-padding: 30px;
+$page-header-height: 140px;
+
+$menu-dropdown-bg-color: $default-reverse-color;
+$menu-dropdown-link-color: #fff;
+
+$footer-bg-color:  $dark-gray-color;
+$footer-txt-color: lighten($footer-bg-color, 35%);
+$footer-link-hover-color: #fff;
+
+$service-tabs-icon-bg: $default-color;
+$service-tabs-active-txt-color: #404d5f;
+$service-tabs-list-border-color: #e5f0fb;
+$service-tabs-list-active-border-color: $default-color;
+$service-tabs-list-txt-color: #657188;
+
+$quick-block-emergency: url(../images/pages/quick-blocks/1.png) no-repeat scroll right bottom mix($default-reverse-color, $default-color, 75%);;
+$quick-block-payments: url(../images/pages/quick-blocks/1.png) no-repeat scroll right bottom mix($default-reverse-color, $default-color, 50%);
+$quick-block-branches: url(../images/pages/quick-blocks/1.png) no-repeat scroll right bottom mix($default-reverse-color, $default-color, 25%);;

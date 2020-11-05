@@ -1,0 +1,206 @@
+
+.contact_section_title {
+  font-family: $default-font-1;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 0 30px;
+  padding-bottom: 20px;
+  color: #404d5f;
+  text-transform: uppercase;
+  border-bottom: 1px solid  #ebf0f5;
+}
+
+.map_row.row {
+  margin-bottom: 100px;
+}
+
+#mapBox {
+  height: 380px;
+}
+
+.contact_intro.row {
+  margin: 35px 0 0;
+  padding-top: 130px;
+
+  .inner {
+    background: #e5f0fb;
+
+    .col-sm-5 {
+      text-align: center;
+
+      img {
+        margin-top: -130px;
+        display: inline-block;
+        max-width: 100%;
+      }
+    }
+
+    .col-sm-7 {
+      padding-right: 100px;
+
+      h2 {
+        font-family: $default-font-1;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 48px;
+        text-transform: uppercase;
+        margin: 65px 0 18px;
+      }
+
+      p {
+        font-family: $default-font-2;
+        font-weight: normal;
+        line-height: 26px;
+        font-size: 17px;
+        color: #8595b1;
+      }
+
+      .phone_fax, .email_address {
+        line-height: 1;
+        font-family: $default-font-1;
+        font-weight: bold;
+        color: $default-color;
+        text-transform: uppercase;
+      }
+
+      .phone_fax .phone, .email_address .phone {
+        margin-right: 50px;
+      }
+
+      .phone_fax {
+        margin: 50px 0 17px;
+      }
+    }
+  }
+}
+
+.contact_address .address .address_line {
+  color: #828fa8;
+  font-family: $default-font-2;
+  line-height: 24px;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.contact_form_row {
+  padding: 40px 0;
+}
+
+.contactForm {
+  .contact_form {
+    .input-group {
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    label {
+      color: #8595b1;
+      font-family: $default-font-1;
+      font-weight: bold;
+      line-height: 1;
+      margin: 0 0 7px;
+      text-transform: uppercase;
+      display: block;
+      width: 100%;
+
+      &.error {
+        padding-top: 5px;
+        clear: both;
+        color: $default-reverse-color;
+      }
+    }
+
+    .form-control {
+      padding: 0 22px;
+      background: #e5f0fb;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: none;
+      font-family: $default-font-2;
+      color: #828fa8;
+      font-size: 16px;
+      line-height: 50px;
+      font-weight: 400;
+      height: auto;
+      border-radius: 0;
+
+      &::-moz-placeholder {
+        color: #828fa8;
+        opacity: 1;
+      }
+
+      &:-ms-input-placeholder, &::-webkit-input-placeholder {
+        color: #828fa8;
+      }
+    }
+
+    textarea.form-control {
+      resize: none;
+      height: 180px;
+      margin-bottom: 30px;
+    }
+
+    .submit_btn {
+      margin-top: 35px;
+      padding: 0 25px;
+      line-height: 50px;
+      background: $default-color;
+      font-family: $default-font-1;
+      font-weight: bold;
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+      border: none;
+      -webkit-transition: all 300ms ease-in-out 0s;
+      transition: all 300ms ease-in-out 0s;
+
+      &:hover, &:focus {
+        background: $default-reverse-color;
+      }
+    }
+
+    .security_captcha {
+      line-height: 35px;
+
+      label {
+        margin: 0;
+        line-height: 35px;
+      }
+
+      .form-control {
+        line-height: 35px;
+        margin: 0 20px;
+        width: 165px;
+      }
+    }
+  }
+
+  #success, #error {
+    display: none;
+  }
+
+  #success span, #erro span {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  #success span p, #error span p {
+    margin-top: 6em;
+  }
+
+  #success span p {
+    color: #9bd32d;
+  }
+
+  #error span p {
+    color: #c0392b;
+  }
+}
+
+#map-canvas {
+  height:300px;
+  border: 1px solid #ebebeb;
+  @include box-shadow(0,0,10px,rgba(0,0,0,0.1));
+}

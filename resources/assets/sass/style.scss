@@ -1,0 +1,104 @@
+@import "../fonts/medical/font/flaticon.css";
+@import "../css/font-awesome.min.css";
+@import "mixins/mixins";
+@import "settings";
+/*----------------------------------------------------------------*/
+@import "includes/global";
+/*----------------------------------------------------------------*/
+@import "includes/topbar";
+/*----------------------------------------------------------------*/
+@import "includes/slider";
+/*----------------------------------------------------------------*/
+@import "includes/form-top";
+/*----------------------------------------------------------------*/
+@import "includes/features";
+/*----------------------------------------------------------------*/
+@import "includes/service";
+/*----------------------------------------------------------------*/
+@import "includes/recent-posts";
+/*----------------------------------------------------------------*/
+@import "includes/about";
+/*----------------------------------------------------------------*/
+@import "includes/team-section";
+/*----------------------------------------------------------------*/
+@import "includes/book-banner";
+/*----------------------------------------------------------------*/
+@import "includes/footer";
+/*----------------------------------------------------------------*/
+@import "includes/quick-blocks";
+/*----------------------------------------------------------------*/
+@import "includes/page-intro";
+/*----------------------------------------------------------------*/
+@import "includes/blog";
+/*----------------------------------------------------------------*/
+@import "includes/contact";
+/*----------------------------------------------------------------*/
+@import "includes/404";
+/*----------------------------------------------------------------*/
+@import "includes/doctors";
+/*----------------------------------------------------------------*/
+@import "includes/timetable";
+/*----------------------------------------------------------------*/
+@import "includes/banner";
+/*----------------------------------------------------------------*/
+@import "includes/service-tabs";
+/*----------------------------------------------------------------*/
+@import "includes/card";
+
+.page-service {
+  margin-bottom: 20px;
+  .page-service-block {
+    border: 2px solid lighten($default-color, 30%);
+    text-align: center;
+    min-height: 200px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+    @include box-shadow(0,0,10px,rgba(0,0,0,0.1));
+    @include border-radius(10px);
+    @include transition(all 500ms ease);
+    &:hover {
+      @include box-shadow(0,0,10px,rgba(0,0,0,0.1));
+      transform: scale(1.05);
+    }
+    h4 {
+      color: $default-reverse-color;
+    }
+    p {
+      font-size: 1em;
+      line-height: 1.2em;
+    }
+    position: relative;
+    //&:after {
+    //  content: "\f00c";
+    //  position: absolute;
+    //  font-family: "FontAwesome";
+    //  font-size: 2em;
+    //  top: 20px;
+    //  right: 40px;
+    //  width: 50px;
+    //  height: 50px;
+    //  color: green;
+    //}
+    .icon {
+      background-color: #fff;
+      border: 3px solid lighten($default-color, 30%);
+      width: 60px;
+      height: 60px;
+      margin: -30px auto auto;
+      border-radius: 50px;
+      position: relative;
+      i {
+        font-size: 2em;
+        text-align: center;
+        line-height: 2em;
+        color: lighten($default-color, 10%);
+      }
+      [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+      [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 3rem;
+        margin-left: 0;
+      }
+    }
+  }
+}

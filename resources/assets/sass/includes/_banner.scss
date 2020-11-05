@@ -1,0 +1,91 @@
+
+.bannercontainer {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  z-index: 1;
+
+  .preloader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 660px;
+    text-align: center;
+    background: #fff;
+    z-index: 9999;
+  }
+
+  .main_slider li {
+    .heading {
+      text-transform: uppercase;
+      font-family: $default-font-1;
+      font-weight: 800;
+      font-size: 42px;
+      line-height: 48px;
+      margin-bottom: 15px;
+      margin-top: 0;
+      color: #404d5f;
+    }
+
+    .para {
+      font-family: $default-font-2;
+      font-size: 16px;
+      line-height: 24px;
+      color: #8595b1;
+    }
+
+    .link a {
+      color: #fff;
+    }
+
+    &.first-slide {
+      .heading {
+        top: 160px;
+      }
+
+      .para {
+        top: 270px;
+      }
+
+      .link {
+        top: 330px;
+      }
+    }
+
+    &.second-slide {
+      .heading {
+        top: 410px;
+      }
+
+      .para {
+        top: 520px;
+      }
+
+      .link {
+        top: 585px;
+      }
+    }
+
+    &.third-slide {
+      text-align: center;
+
+      .heading {
+        top: 410px;
+        left: 296px;
+      }
+
+      .para {
+        top: 520px;
+        left: 378px;
+      }
+
+      .link {
+        top: 570px;
+        left: 491px;
+      }
+    }
+  }
+  .tp-caption {
+    @include text-shadow(0,2px,5px,rgba(0,0,0,.75));
+  }
+}

@@ -1,0 +1,42 @@
+
+.contents404 {
+  padding: 70px 0;
+  margin-bottom: 70px;
+
+  .logo404 {
+    text-align: right;
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+  }
+
+  h2, h3 {
+    font-family: $default-font-1;
+    font-weight: bold;
+    font-size: 168px;
+    line-height: 109px;
+    margin: 0;
+    color: #404d5f;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 109px;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 36px;
+    font-family: $default-font-2;
+    color: #8595b1;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+}

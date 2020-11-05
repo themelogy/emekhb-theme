@@ -1,0 +1,74 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 21/10/2020 22:46
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-old-man:before { content: "\f100"; }
+.flaticon-care:before { content: "\f101"; }
+.flaticon-medical-records:before { content: "\f102"; }
+.flaticon-stretcher:before { content: "\f103"; }
+.flaticon-health-care:before { content: "\f104"; }
+.flaticon-pulse:before { content: "\f105"; }
+.flaticon-ambulance:before { content: "\f106"; }
+.flaticon-veterinarian:before { content: "\f107"; }
+.flaticon-doctor:before { content: "\f108"; }
+.flaticon-drugs:before { content: "\f109"; }
+.flaticon-hospital-ward:before { content: "\f10a"; }
+.flaticon-nurse:before { content: "\f10b"; }
+.flaticon-traumatology:before { content: "\f10c"; }
+.flaticon-bandage:before { content: "\f10d"; }
+.flaticon-medical-mask:before { content: "\f10e"; }
+.flaticon-feeding:before { content: "\f10f"; }
+.flaticon-hospitalization:before { content: "\f110"; }
+.flaticon-fever:before { content: "\f111"; }
+.flaticon-benefit:before { content: "\f112"; }
+.flaticon-treatment:before { content: "\f113"; }
+.flaticon-medical-record:before { content: "\f114"; }
+.flaticon-rehabilitation:before { content: "\f115"; }
+.flaticon-patient:before { content: "\f116"; }
+.flaticon-vaccination:before { content: "\f117"; }
+.flaticon-saline:before { content: "\f118"; }
+.flaticon-towel:before { content: "\f119"; }
+.flaticon-partner:before { content: "\f11a"; }
+.flaticon-24-hour-service:before { content: "\f11b"; }
+.flaticon-care-1:before { content: "\f11c"; }
+.flaticon-family:before { content: "\f11d"; }
+.flaticon-stay-at-home:before { content: "\f11e"; }
+.flaticon-care-2:before { content: "\f11f"; }
+.flaticon-stethoscope:before { content: "\f120"; }
+.flaticon-home:before { content: "\f121"; }
+.flaticon-satisfaction:before { content: "\f122"; }
+.flaticon-customer-feedback:before { content: "\f123"; }
+.flaticon-career:before { content: "\f124"; }
+.flaticon-nurse-1:before { content: "\f125"; }
+.flaticon-caretaker:before { content: "\f126"; }
+.flaticon-solidarity:before { content: "\f127"; }
+.flaticon-health-check:before { content: "\f128"; }
+.flaticon-care-3:before { content: "\f129"; }

@@ -1,0 +1,126 @@
+.book_banner {
+  background: $default-reverse-color;
+  color: #fff;
+  padding: 43px 0;
+  clear: both;
+
+  .view_all {
+    background: #fff;
+    color: $default-reverse-color;
+    margin-top: 0;
+    border: 1px solid  #fff;
+    padding: 0;
+    display: block;
+    text-align: center;
+
+    &:hover {
+      background: none;
+      color: #fff;
+    }
+  }
+
+  h3.bannerTitle {
+    margin: 0 0 10px;
+    font-size: 21px;
+    font-family: $default-font-1;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #fff;
+  }
+
+  h5 {
+    margin: 0;
+    font-family: $default-font-1;
+    color: lighten($default-reverse-color, 40%);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+  }
+}
+
+.book_bannerType2 {
+  background: #43b9f6;
+  text-align: center;
+  padding: 55px 0 50px;
+  color: #fff;
+
+  .container {
+    max-width: 980px;
+  }
+
+  h4 {
+    font-family: $default-font-1;
+    font-weight: normal;
+    margin: 0 0 5px;
+  }
+
+  h2 {
+    font-family: $default-font-1;
+    font-weight: bold;
+    margin: 0 0 30px;
+  }
+
+  p {
+    font-family: $default-font-1;
+    font-weight: 300;
+    margin: 0 0 20px;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+  }
+
+  .view_all {
+    background: #fff;
+    border: 1px solid  #fff;
+    color: $default-color;
+
+    &:hover {
+      background: none;
+      color: #fff;
+    }
+  }
+}
+
+.slide_banner {
+  margin: 160px 0 330px;
+
+  h2 {
+    text-transform: uppercase;
+    font-family: $default-font-1;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    color: #404d5f;
+  }
+
+  p {
+    font-family: $default-font-2;
+    font-size: 16px;
+    line-height: 24px;
+    color: #76839c;
+  }
+
+  &.slide_banner2 {
+    margin: auto;
+    position: absolute;
+    z-index: 2;
+    width: 522.5px;
+    top: 20%;
+
+    .inner {
+      padding: 35px;
+      background: #fff;
+
+      h4 {
+        font-family: $default-font-1;
+        font-weight: 300;
+        color: #8595b1;
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

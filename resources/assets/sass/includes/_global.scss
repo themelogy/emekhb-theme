@@ -1,0 +1,107 @@
+* {
+  outline: none;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeSpeed;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+body {
+  font-family: $default-font-1;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+/*Floating*/
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+/*Section Fix*/
+
+section.row, header.row, footer.row {
+  margin: 0;
+  position: relative;
+}
+
+/*Ancore*/
+
+a, .btn, button {
+  outline: none;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+a:focus, .btn:focus, button:focus, a:hover, .btn:hover, button:hover {
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+
+$space-values : (
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50
+) !default;
+
+$spaces : (
+        padding,
+        margin
+) !default;
+
+$space-sides : (
+        top,
+        right,
+        bottom,
+        left
+) !default;
+
+@mixin make-spaces() {
+  @each $space in $spaces {
+    @each $value in $space-values {
+      .#{$space}-#{$value} {
+        #{$space}: #{$value}#{'px'};
+      }
+      @each $side in $space-sides {
+        .#{$space}-#{$side}-#{$value} {
+          #{$space}-#{$side}: #{$value}#{'px'};
+        }
+      }
+    }
+  }
+}
+
+@include make-spaces();
